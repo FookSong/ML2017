@@ -47,7 +47,6 @@ lr = 1.0
 idealloss = 0
 havemodel = 0
 train = 1
-s
 a = 1.0	#regularization
 
 length = np.array(datapm).shape[0]#5760
