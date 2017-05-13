@@ -28,7 +28,7 @@ if __name__ == '__main__':
 
 	ind = np.argsort(clf.cluster_centers_, axis=None)
 	clflabel = np.zeros((1,200))
-	n=2
+	n=1
 	for index in ind:
 		#print(np.where(clf.labels_==index))
 		clflabel[0,np.where(clf.labels_==index)] = n
